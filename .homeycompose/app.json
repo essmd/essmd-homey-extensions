@@ -1,0 +1,28 @@
+{
+  "id": "dev.essmd.homey-extensions",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Essmd Extensions"
+  },
+  "description": {
+    "en": "Adds some handy features and extensions for my personal usage"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Dominik Essmann",
+    "email": "dominik+homey@essmann.cloud"
+  }
+}
