@@ -1,0 +1,54 @@
+{
+  "title": {
+    "en": "Change percentage rotational relatively",
+    "de": "Prozentwert rotierend und relativ ändern"
+  },
+  "titleFormatted": {
+    "en": "Change percentage [[current_amount]] rotational by [[change_amount]] relatively",
+    "de": "Prozentwert [[current_amount]] rotierend um [[change_amount]] relativ ändern"
+  },
+  "hint": {
+    "en": "Change the percentage value relatively by the given amount. The value will rotate between 0% and 100% when those values would be fall out of range.",
+    "de": "Ändert den Prozentwert relativ um den angegebenen Wert. Der Prozentwert rotiert zwischen 0% und 100% wenn diese Werte entsprechend unter- oder überschritten werden."
+  },
+  "args": [
+    {
+      "name": "change_amount",
+      "type": "range",
+      "min": -1,
+      "max": 1,
+      "step": 0.01,
+      "label": "%",
+      "labelMultiplier": 100,
+      "labelDecimals": 0,
+      "title": { 
+        "en": "Change amount",
+        "de": "Änderungswert"
+      }
+    },
+    {
+      "name": "current_amount",
+      "type": "number",
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "label": "%",
+      "labelMultiplier": 100,
+      "labelDecimals": 0,
+      "title": { 
+        "en": "Current amount",
+        "de": "Aktueller Wert"
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "name": "result",
+      "type": "number",
+      "title": {
+        "en": "Result",
+        "de": "Ergebnis"
+      }
+    }
+  ]
+}
